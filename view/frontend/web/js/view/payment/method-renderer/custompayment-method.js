@@ -1,11 +1,5 @@
-/**
- * Copyright © Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
- */
-
-/* @api */
 define([
-    'Magento_Checkout/js/view/payment/default',
+    'Magento_Checkout/js/view/payment/default'
 ], function (Component) {
     'use strict';
 
@@ -15,7 +9,8 @@ define([
         },
 
         /**
-         * Returns payment mtehod instructions.
+         * Returns payment method instructions.
+         *
          * @return {*}
          */
         getInstructions: function () {
@@ -23,18 +18,3 @@ define([
         }
     });
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

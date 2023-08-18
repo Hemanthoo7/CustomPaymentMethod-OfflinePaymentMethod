@@ -20,7 +20,7 @@
                                                             <!-- merge payment method renders here -->
                                                             <item name="children" xsi:type="array">
                                                                 <item name="offline-payments" xsi:type="array">
-                                                                    <item name="component" xsi:type="string">Magento_Payment/js/view/payment/custompayment</item>
+                                                                    <item name="component" xsi:type="string">OfflinePayment_Method/js/view/payment/custompayment</item>
                                                                     <item name="methods" xsi:type="array">
                                                                         <item name="custompayment" xsi:type="array">
                                                                             <item name="isBillingAddressRequired" xsi:type="boolean">true</item>
